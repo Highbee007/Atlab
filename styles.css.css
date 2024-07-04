@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    /*border: 1px solid white;*/
+}
+
+body {
+    background: linear-gradient(130deg, rgb(4, 4, 97), black 30%, purple);
+    padding: 0 2%;
+}
+
+.topnav {
+    font-family: Quicksand;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand, .nav,.topnav .button {
+    margin: 20px;
+    vertical-align: top;
+}
+
+.brand {
+    font-size: 40px;
+    font-family: Quicksand Medium;
+    color: white;
+}
+
+.nav {
+    margin: 25px 60px;
+    vertical-align: center;
+}
+
+.nav a {
+    font-size: 25px;
+    color: lightgrey;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+/*.button {
+    min-width: 350px;
+}*/
+.topnav .button {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.topnav .connect, .topnav .create, .connect {
+    width: 45%;
+    max-width: 230px;
+    height: 3rem;
+    border: none;
+    border-radius: 25px;
+    vertical-align: top;
+}
+
+.connect {
+    background-image: linear-gradient(90deg, rgb(228, 82, 228), rgb(82, 165, 221));
+    color: white;
+}
+
+.create {
+    color:rgb(82, 165, 221);
+}
+
+.container {
+    margin: 20px;
+    color: white;
+    height: auto;
+}
+
+h1, .image, p {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 70px;
+    width: 45%;
+    font-family: DM Mono;
+    margin: 0;
+    color: lightgray;
+    opacity: 0.8;
+}
+
+span {
+    color: purple;
+}
+
+.pitch {
+    font-family: Dm Mono Light;
+    font-weight: lighter;
+    opacity: 0.8;
+}
+
+.image {
+    width: 30%;
+    height: 80vh;
+    float: right;
+    margin-top: 5rem;
+    background: linear-gradient(rgb(159, 78, 160), rgb(78, 49, 94));
+    border-radius: 40px 40px 20px 20px;
+}
+
+img {
+    width: 90%;
+    opacity: 0.7;
+    height: 70%;
+    border-radius: 50px 50px 0 0;
+    margin: 5%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.buy {
+    border-radius: 20px 20px 20px 20px;
+    top: -3rem;
+    position: relative;
+    height: 150px;
+    background: linear-gradient(rgb(159, 78, 160), rgb(78, 49, 94));
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+.buy h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: DM Mono;
+    color: white;
+}
+
+.buy p {
+    margin-top: 0;
+    width: 80%;
+    font-family: DM Mono;
+    font-size: 16px;
+}
+
+.size {
+    display: inline-block;
+    font-family: DM Mono;
+    position: relative;
+    font-weight: lighter;
+    margin-top: 2px;
+}
+.size {
+    margin-top: -0.5rem;
+    max-width: 500px;
+    width: 90%;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.size span {
+    color: white;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.image button {
+    border: none;
+    border-radius: 25px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto;
+    width: 40%;
+    font-size: 15px;
+    height: 2rem;
+}
+
+.ing {
+    position: relative;
+    top: -3rem;
+    z-index: -2;
+}
+
+.spring {
+    border: 1px solid rgb(148, 31, 148);
+    border-left-color: grey;
+    width: 90%;
+    margin: -50px auto;
+    /*top: -2.5rem;*/
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.des {
+    width: 33%;
+    font-size: 20px;
+    font-family: Quicksand;     
+}
+
+button[name="explore"] {
+    vertical-align: center;
+    font-size: 20px;
+}
+
+#learn {
+    font-size: 22px;
+    font-family: Quicksand Medium;
+    margin-left: 20px;
+    vertical-align: center;
+    margin-top: 15px;
+}
+
+.work, .auc, .art {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.work p, .auc p, .art p {
+    display: inline-block;
+    font-size: 25px;
+    font-family: DM Mono;
+}
+
+.quantity .by {
+    font-size: 18px;
+    color: grey;
+    margin-top: 0;
+    letter-spacing: -1px;
+}
+
+footer {
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    margin-left: 20px;
+    font-family: DM Mono;
+}
+
+h3 {
+    color: white;
+}
+
+.footer > p {
+    color: grey;
+    font-size: 20px;
+    top: 10px;
+    margin-right: 50px;
+}
